@@ -183,12 +183,74 @@ while(palabra!=palabraIngresada){
 
 // }while(condicion)
 
-let continuar= true
-let passGuardado='1150'
-do{
-    let password = prompt('Cuanto es 785+365');
-    if (password == passGuardado){
-        console.log('Esa, matematico');
-        continuar=false
+// let continuar= true
+// let passGuardado='1150'
+// do{
+//     let password = prompt('Cuanto es 785+365');
+//     if (password == passGuardado){
+//         console.log('Esa, matematico');
+//         continuar=false
+//     }
+// }while(continuar)
+
+
+//Swith 22/08
+
+/*let ingreso = prompt(
+    'Ingrese una opcion \n 1-Cafe solo \n 2-Cafe con leche \n 3-Te\n 4-Te con leche \n 5-Agua caliente'
+);
+
+switch (ingreso){
+    case'1':
+        alert('Seleccionaste cafe?');
+        break;
+    case'2':
+        alert('Seleccionaste cafe con leche?');
+        break;
+    case'3':
+        alert('Seleccionaste Te?');
+        break;
+
+    default:
+        alert('opcion no valida');
+        break;
+}
+//if()else if()else if()else{alert(opcion no valida)} */
+
+//funciones
+//declarar funciones
+// function saludar(){
+//     //codigo a ejecturar
+//     alert('Hola como estas?')
+// }
+//llamar a la funcion
+// saludar();
+
+// function solicitarNombre(){
+//     let nombre=prompt('Ingresa tu nombre');
+//     alert(nombre)
+// }
+// solicitarNombre();
+
+//Funciones con parametros
+// function saludar(nombre, apellido){
+//     alert('Hola ' + nombre +' ' + apellido + ' como estas?')
+// }
+
+// let ingresarNombre=prompt('ingresa tu nombre');
+// let ingresarApellido=prompt('ingresa tu apellido');
+
+// saludar(ingresarNombre, ingresarApellido);
+
+
+function sumar(parametro1, parametro2){
+    if (parametro1!==undefined && parametro2!==undefined){
+    alert ('no puedes tener campos vacios')
+    }else{
+    alert (parametro1 + parametro2);
     }
-}while(continuar)
+}
+let num1 = parseFloat(prompt('ingresa un numero'));
+let num2 = parseFloat(prompt('ingresa otro numero'));
+
+sumar (num1, num2);
